@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.TeacherID = new System.Windows.Forms.Label();
-            this.Name = new System.Windows.Forms.Label();
+            this.Name1 = new System.Windows.Forms.Label();
             this.Salary = new System.Windows.Forms.Label();
             this.Address = new System.Windows.Forms.Label();
             this.textTeacherID = new System.Windows.Forms.TextBox();
@@ -59,12 +59,12 @@
             // 
             // Name
             // 
-            this.Name.AutoSize = true;
-            this.Name.Location = new System.Drawing.Point(18, 52);
-            this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(44, 16);
-            this.Name.TabIndex = 1;
-            this.Name.Text = "Name";
+            this.Name1.AutoSize = true;
+            this.Name1.Location = new System.Drawing.Point(18, 52);
+            this.Name1.Name = "Name";
+            this.Name1.Size = new System.Drawing.Size(44, 16);
+            this.Name1.TabIndex = 1;
+            this.Name1.Text = "Name";
             // 
             // Salary
             // 
@@ -208,7 +208,7 @@
             this.Controls.Add(this.textTeacherID);
             this.Controls.Add(this.Salary);
             this.Controls.Add(this.Address);
-            this.Controls.Add(this.Name);
+            this.Controls.Add(this.Name1);
             this.Controls.Add(this.TeacherID);
             this.Name = "Form1";
             this.Text = "Pokédex";
@@ -222,7 +222,7 @@
         #endregion
 
         private System.Windows.Forms.Label TeacherID;
-        private System.Windows.Forms.Label Name;
+        private System.Windows.Forms.Label Name1;
         private System.Windows.Forms.Label Salary;
         private System.Windows.Forms.Label Address;
         private System.Windows.Forms.TextBox textTeacherID;

@@ -36,5 +36,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

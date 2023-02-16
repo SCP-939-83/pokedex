@@ -1,0 +1,221 @@
+﻿namespace WindowsFormsApp2
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Exit = new System.Windows.Forms.Button();
+            this.Delete = new System.Windows.Forms.Button();
+            this.Update = new System.Windows.Forms.Button();
+            this.Insert = new System.Windows.Forms.Button();
+            this.ShowAll = new System.Windows.Forms.Button();
+            this.shortdescription = new System.Windows.Forms.TextBox();
+            this.nickname = new System.Windows.Forms.TextBox();
+            this.scpname = new System.Windows.Forms.TextBox();
+            this.ID = new System.Windows.Forms.TextBox();
+            this.Salary = new System.Windows.Forms.Label();
+            this.Address = new System.Windows.Forms.Label();
+            this.scp = new System.Windows.Forms.Label();
+            this.TeacherID = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(300, 47);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(495, 384);
+            this.dataGridView1.TabIndex = 31;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Exit
+            // 
+            this.Exit.BackColor = System.Drawing.Color.IndianRed;
+            this.Exit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Exit.Location = new System.Drawing.Point(201, 402);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(80, 30);
+            this.Exit.TabIndex = 28;
+            this.Exit.Text = "Exit";
+            this.Exit.UseVisualStyleBackColor = false;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
+            // Delete
+            // 
+            this.Delete.Location = new System.Drawing.Point(201, 365);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(80, 30);
+            this.Delete.TabIndex = 27;
+            this.Delete.Text = "Delete";
+            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
+            // 
+            // Update
+            // 
+            this.Update.Location = new System.Drawing.Point(115, 365);
+            this.Update.Name = "Update";
+            this.Update.Size = new System.Drawing.Size(80, 30);
+            this.Update.TabIndex = 26;
+            this.Update.Text = "Update";
+            this.Update.UseVisualStyleBackColor = true;
+            this.Update.Click += new System.EventHandler(this.Update_Click);
+            // 
+            // Insert
+            // 
+            this.Insert.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Insert.Location = new System.Drawing.Point(29, 365);
+            this.Insert.Name = "Insert";
+            this.Insert.Size = new System.Drawing.Size(80, 30);
+            this.Insert.TabIndex = 25;
+            this.Insert.Text = "Insert";
+            this.Insert.UseVisualStyleBackColor = true;
+            this.Insert.Click += new System.EventHandler(this.Insert_Click);
+            // 
+            // ShowAll
+            // 
+            this.ShowAll.Location = new System.Drawing.Point(29, 402);
+            this.ShowAll.Name = "ShowAll";
+            this.ShowAll.Size = new System.Drawing.Size(80, 30);
+            this.ShowAll.TabIndex = 24;
+            this.ShowAll.Text = "Show all";
+            this.ShowAll.UseVisualStyleBackColor = true;
+            // 
+            // shortdescription
+            // 
+            this.shortdescription.Location = new System.Drawing.Point(106, 100);
+            this.shortdescription.Name = "shortdescription";
+            this.shortdescription.Size = new System.Drawing.Size(188, 22);
+            this.shortdescription.TabIndex = 23;
+            // 
+            // nickname
+            // 
+            this.nickname.Location = new System.Drawing.Point(106, 73);
+            this.nickname.Name = "nickname";
+            this.nickname.Size = new System.Drawing.Size(188, 22);
+            this.nickname.TabIndex = 22;
+            // 
+            // scpname
+            // 
+            this.scpname.Location = new System.Drawing.Point(106, 46);
+            this.scpname.Name = "scpname";
+            this.scpname.Size = new System.Drawing.Size(188, 22);
+            this.scpname.TabIndex = 21;
+            // 
+            // ID
+            // 
+            this.ID.Location = new System.Drawing.Point(106, 19);
+            this.ID.Name = "ID";
+            this.ID.Size = new System.Drawing.Size(188, 22);
+            this.ID.TabIndex = 20;
+            // 
+            // Salary
+            // 
+            this.Salary.AutoSize = true;
+            this.Salary.Location = new System.Drawing.Point(5, 103);
+            this.Salary.Name = "Salary";
+            this.Salary.Size = new System.Drawing.Size(104, 16);
+            this.Salary.TabIndex = 19;
+            this.Salary.Text = "Shortdescription";
+            // 
+            // Address
+            // 
+            this.Address.AutoSize = true;
+            this.Address.Location = new System.Drawing.Point(26, 73);
+            this.Address.Name = "Address";
+            this.Address.Size = new System.Drawing.Size(68, 16);
+            this.Address.TabIndex = 18;
+            this.Address.Text = "Nickname";
+            // 
+            // scp
+            // 
+            this.scp.AutoSize = true;
+            this.scp.Location = new System.Drawing.Point(26, 46);
+            this.scp.Name = "scp";
+            this.scp.Size = new System.Drawing.Size(34, 16);
+            this.scp.TabIndex = 17;
+            this.scp.Text = "SCP";
+            // 
+            // TeacherID
+            // 
+            this.TeacherID.AutoSize = true;
+            this.TeacherID.Location = new System.Drawing.Point(26, 19);
+            this.TeacherID.Name = "TeacherID";
+            this.TeacherID.Size = new System.Drawing.Size(20, 16);
+            this.TeacherID.TabIndex = 16;
+            this.TeacherID.Text = "ID";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.Exit);
+            this.Controls.Add(this.Delete);
+            this.Controls.Add(this.Update);
+            this.Controls.Add(this.Insert);
+            this.Controls.Add(this.ShowAll);
+            this.Controls.Add(this.shortdescription);
+            this.Controls.Add(this.nickname);
+            this.Controls.Add(this.scpname);
+            this.Controls.Add(this.ID);
+            this.Controls.Add(this.Salary);
+            this.Controls.Add(this.Address);
+            this.Controls.Add(this.scp);
+            this.Controls.Add(this.TeacherID);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.Button Delete;
+        private System.Windows.Forms.Button Update;
+        private System.Windows.Forms.Button Insert;
+        private System.Windows.Forms.Button ShowAll;
+        private System.Windows.Forms.TextBox shortdescription;
+        private System.Windows.Forms.TextBox nickname;
+        private System.Windows.Forms.TextBox scpname;
+        private System.Windows.Forms.TextBox ID;
+        private System.Windows.Forms.Label Salary;
+        private System.Windows.Forms.Label Address;
+        private System.Windows.Forms.Label scp;
+        private System.Windows.Forms.Label TeacherID;
+    }
+}
+

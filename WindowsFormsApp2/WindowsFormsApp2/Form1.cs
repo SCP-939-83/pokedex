@@ -123,5 +123,20 @@ namespace WindowsFormsApp2
         {
             Close();
         }
+
+        private void Address_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void scp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

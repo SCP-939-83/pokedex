@@ -42,17 +42,19 @@
             this.Address = new System.Windows.Forms.Label();
             this.scp = new System.Windows.Forms.Label();
             this.TeacherID = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(300, 47);
+            this.dataGridView1.Location = new System.Drawing.Point(300, 19);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(495, 384);
+            this.dataGridView1.Size = new System.Drawing.Size(731, 419);
             this.dataGridView1.TabIndex = 31;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -80,11 +82,11 @@
             // 
             // Update
             // 
-            this.Update.Location = new System.Drawing.Point(115, 365);
+            this.Update.Location = new System.Drawing.Point(29, 402);
             this.Update.Name = "Update";
-            this.Update.Size = new System.Drawing.Size(80, 30);
+            this.Update.Size = new System.Drawing.Size(166, 30);
             this.Update.TabIndex = 26;
-            this.Update.Text = "Update";
+            this.Update.Text = "Update page";
             this.Update.UseVisualStyleBackColor = true;
             this.Update.Click += new System.EventHandler(this.Update_Click);
             // 
@@ -101,11 +103,11 @@
             // 
             // ShowAll
             // 
-            this.ShowAll.Location = new System.Drawing.Point(29, 402);
+            this.ShowAll.Location = new System.Drawing.Point(115, 365);
             this.ShowAll.Name = "ShowAll";
             this.ShowAll.Size = new System.Drawing.Size(80, 30);
             this.ShowAll.TabIndex = 24;
-            this.ShowAll.Text = "Show all";
+            this.ShowAll.Text = "Edit";
             this.ShowAll.UseVisualStyleBackColor = true;
             // 
             // shortdescription
@@ -139,7 +141,7 @@
             // Salary
             // 
             this.Salary.AutoSize = true;
-            this.Salary.Location = new System.Drawing.Point(5, 103);
+            this.Salary.Location = new System.Drawing.Point(-4, 106);
             this.Salary.Name = "Salary";
             this.Salary.Size = new System.Drawing.Size(104, 16);
             this.Salary.TabIndex = 19;
@@ -148,35 +150,51 @@
             // Address
             // 
             this.Address.AutoSize = true;
-            this.Address.Location = new System.Drawing.Point(26, 73);
+            this.Address.Location = new System.Drawing.Point(32, 79);
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(68, 16);
             this.Address.TabIndex = 18;
             this.Address.Text = "Nickname";
+            this.Address.Click += new System.EventHandler(this.Address_Click);
             // 
             // scp
             // 
             this.scp.AutoSize = true;
-            this.scp.Location = new System.Drawing.Point(26, 46);
+            this.scp.Location = new System.Drawing.Point(66, 52);
             this.scp.Name = "scp";
             this.scp.Size = new System.Drawing.Size(34, 16);
             this.scp.TabIndex = 17;
             this.scp.Text = "SCP";
+            this.scp.Click += new System.EventHandler(this.scp_Click);
             // 
             // TeacherID
             // 
             this.TeacherID.AutoSize = true;
-            this.TeacherID.Location = new System.Drawing.Point(26, 19);
+            this.TeacherID.Location = new System.Drawing.Point(80, 25);
             this.TeacherID.Name = "TeacherID";
             this.TeacherID.Size = new System.Drawing.Size(20, 16);
             this.TeacherID.TabIndex = 16;
             this.TeacherID.Text = "ID";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsApp2.Properties.Resources.SCP_Foundation;
+            this.pictureBox1.Location = new System.Drawing.Point(54, 159);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 32;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1043, 450);
+            this.ControlBox = false;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.Delete);
@@ -192,9 +210,10 @@
             this.Controls.Add(this.scp);
             this.Controls.Add(this.TeacherID);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SCP database";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,6 +235,7 @@
         private System.Windows.Forms.Label Address;
         private System.Windows.Forms.Label scp;
         private System.Windows.Forms.Label TeacherID;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

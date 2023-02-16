@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.TeacherID = new System.Windows.Forms.Label();
-            this.Name1 = new System.Windows.Forms.Label();
+            this.scp = new System.Windows.Forms.Label();
             this.Salary = new System.Windows.Forms.Label();
             this.Address = new System.Windows.Forms.Label();
             this.textTeacherID = new System.Windows.Forms.TextBox();
@@ -52,37 +52,37 @@
             this.TeacherID.AutoSize = true;
             this.TeacherID.Location = new System.Drawing.Point(18, 25);
             this.TeacherID.Name = "TeacherID";
-            this.TeacherID.Size = new System.Drawing.Size(74, 16);
+            this.TeacherID.Size = new System.Drawing.Size(20, 16);
             this.TeacherID.TabIndex = 0;
-            this.TeacherID.Text = "Teacher ID";
+            this.TeacherID.Text = "ID";
             this.TeacherID.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Name
+            // scp
             // 
-            this.Name1.AutoSize = true;
-            this.Name1.Location = new System.Drawing.Point(18, 52);
-            this.Name1.Name = "Name";
-            this.Name1.Size = new System.Drawing.Size(44, 16);
-            this.Name1.TabIndex = 1;
-            this.Name1.Text = "Name";
+            this.scp.AutoSize = true;
+            this.scp.Location = new System.Drawing.Point(18, 52);
+            this.scp.Name = "scp";
+            this.scp.Size = new System.Drawing.Size(34, 16);
+            this.scp.TabIndex = 1;
+            this.scp.Text = "SCP";
             // 
             // Salary
             // 
             this.Salary.AutoSize = true;
-            this.Salary.Location = new System.Drawing.Point(18, 106);
+            this.Salary.Location = new System.Drawing.Point(-3, 109);
             this.Salary.Name = "Salary";
-            this.Salary.Size = new System.Drawing.Size(46, 16);
+            this.Salary.Size = new System.Drawing.Size(104, 16);
             this.Salary.TabIndex = 3;
-            this.Salary.Text = "Salary";
+            this.Salary.Text = "Shortdescription";
             // 
             // Address
             // 
             this.Address.AutoSize = true;
             this.Address.Location = new System.Drawing.Point(18, 79);
             this.Address.Name = "Address";
-            this.Address.Size = new System.Drawing.Size(58, 16);
+            this.Address.Size = new System.Drawing.Size(68, 16);
             this.Address.TabIndex = 2;
-            this.Address.Text = "Address";
+            this.Address.Text = "Nickname";
             // 
             // textTeacherID
             // 
@@ -120,6 +120,7 @@
             this.ShowAll.TabIndex = 8;
             this.ShowAll.Text = "Show all";
             this.ShowAll.UseVisualStyleBackColor = true;
+            this.ShowAll.Click += new System.EventHandler(this.ShowAll_Click);
             // 
             // Insert
             // 
@@ -129,6 +130,7 @@
             this.Insert.TabIndex = 9;
             this.Insert.Text = "Insert";
             this.Insert.UseVisualStyleBackColor = true;
+            this.Insert.Click += new System.EventHandler(this.Insert_Click);
             // 
             // Update
             // 
@@ -208,7 +210,7 @@
             this.Controls.Add(this.textTeacherID);
             this.Controls.Add(this.Salary);
             this.Controls.Add(this.Address);
-            this.Controls.Add(this.Name1);
+            this.Controls.Add(this.scp);
             this.Controls.Add(this.TeacherID);
             this.Name = "Form1";
             this.Text = "Pokédex";
@@ -222,7 +224,7 @@
         #endregion
 
         private System.Windows.Forms.Label TeacherID;
-        private System.Windows.Forms.Label Name1;
+        private System.Windows.Forms.Label scp;
         private System.Windows.Forms.Label Salary;
         private System.Windows.Forms.Label Address;
         private System.Windows.Forms.TextBox textTeacherID;

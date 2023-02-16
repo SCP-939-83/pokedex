@@ -1,0 +1,12 @@
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\bin\Debug\net6.0\DatabaseConnector.deps.json
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\bin\Debug\net6.0\DatabaseConnector.dll
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\bin\Debug\net6.0\DatabaseConnector.pdb
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\DatabaseConnector.csproj.AssemblyReference.cache
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\DatabaseConnector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\DatabaseConnector.AssemblyInfoInputs.cache
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\DatabaseConnector.AssemblyInfo.cs
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\DatabaseConnector.csproj.CoreCompileInputs.cache
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\DatabaseConnector.dll
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\refint\DatabaseConnector.dll
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\DatabaseConnector.pdb
+C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\obj\Debug\net6.0\ref\DatabaseConnector.dll

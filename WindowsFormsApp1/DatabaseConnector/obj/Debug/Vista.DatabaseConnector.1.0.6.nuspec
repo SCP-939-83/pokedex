@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Vista.DatabaseConnector</id>
+    <version>1.0.6</version>
+    <authors>Raymond Backus</authors>
+    <icon>Vista_icon.png</icon>
+    <description>Package Description</description>
+    <copyright>2020 VISTA college</copyright>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Dapper" version="2.0.35" exclude="Build,Analyzers" />
+        <dependency id="MySql.Data" version="8.0.21" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\bin\Debug\net6.0\DatabaseConnector.dll" target="lib\net6.0\DatabaseConnector.dll" />
+    <file src="C:\Users\thijs\Downloads\DatabaseTestApp\DatabaseConnector\DatabaseConnector\Files\Vista_icon.png" target="Vista_icon.png" />
+  </files>
+</package>

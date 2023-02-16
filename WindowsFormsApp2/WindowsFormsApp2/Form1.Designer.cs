@@ -50,11 +50,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(300, 19);
+            this.dataGridView1.Location = new System.Drawing.Point(329, 46);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(731, 419);
+            this.dataGridView1.Size = new System.Drawing.Size(671, 392);
             this.dataGridView1.TabIndex = 31;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -62,7 +62,7 @@
             // 
             this.Exit.BackColor = System.Drawing.Color.IndianRed;
             this.Exit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Exit.Location = new System.Drawing.Point(201, 402);
+            this.Exit.Location = new System.Drawing.Point(228, 402);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(80, 30);
             this.Exit.TabIndex = 28;
@@ -72,7 +72,7 @@
             // 
             // Delete
             // 
-            this.Delete.Location = new System.Drawing.Point(201, 365);
+            this.Delete.Location = new System.Drawing.Point(228, 365);
             this.Delete.Name = "Delete";
             this.Delete.Size = new System.Drawing.Size(80, 30);
             this.Delete.TabIndex = 27;
@@ -82,7 +82,7 @@
             // 
             // Update
             // 
-            this.Update.Location = new System.Drawing.Point(29, 402);
+            this.Update.Location = new System.Drawing.Point(56, 402);
             this.Update.Name = "Update";
             this.Update.Size = new System.Drawing.Size(166, 30);
             this.Update.TabIndex = 26;
@@ -93,7 +93,7 @@
             // Insert
             // 
             this.Insert.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.Insert.Location = new System.Drawing.Point(29, 365);
+            this.Insert.Location = new System.Drawing.Point(56, 365);
             this.Insert.Name = "Insert";
             this.Insert.Size = new System.Drawing.Size(80, 30);
             this.Insert.TabIndex = 25;
@@ -103,7 +103,7 @@
             // 
             // edit
             // 
-            this.edit.Location = new System.Drawing.Point(115, 365);
+            this.edit.Location = new System.Drawing.Point(142, 365);
             this.edit.Name = "edit";
             this.edit.Size = new System.Drawing.Size(80, 30);
             this.edit.TabIndex = 24;
@@ -113,28 +113,28 @@
             // 
             // shortdescription
             // 
-            this.shortdescription.Location = new System.Drawing.Point(106, 100);
+            this.shortdescription.Location = new System.Drawing.Point(133, 100);
             this.shortdescription.Name = "shortdescription";
             this.shortdescription.Size = new System.Drawing.Size(188, 22);
             this.shortdescription.TabIndex = 23;
             // 
             // nickname
             // 
-            this.nickname.Location = new System.Drawing.Point(106, 73);
+            this.nickname.Location = new System.Drawing.Point(133, 73);
             this.nickname.Name = "nickname";
             this.nickname.Size = new System.Drawing.Size(188, 22);
             this.nickname.TabIndex = 22;
             // 
             // scpname
             // 
-            this.scpname.Location = new System.Drawing.Point(106, 46);
+            this.scpname.Location = new System.Drawing.Point(133, 46);
             this.scpname.Name = "scpname";
             this.scpname.Size = new System.Drawing.Size(188, 22);
             this.scpname.TabIndex = 21;
             // 
             // ID
             // 
-            this.ID.Location = new System.Drawing.Point(106, 19);
+            this.ID.Location = new System.Drawing.Point(133, 19);
             this.ID.Name = "ID";
             this.ID.Size = new System.Drawing.Size(188, 22);
             this.ID.TabIndex = 20;
@@ -142,7 +142,7 @@
             // Salary
             // 
             this.Salary.AutoSize = true;
-            this.Salary.Location = new System.Drawing.Point(-4, 106);
+            this.Salary.Location = new System.Drawing.Point(23, 106);
             this.Salary.Name = "Salary";
             this.Salary.Size = new System.Drawing.Size(104, 16);
             this.Salary.TabIndex = 19;
@@ -151,7 +151,7 @@
             // Address
             // 
             this.Address.AutoSize = true;
-            this.Address.Location = new System.Drawing.Point(32, 79);
+            this.Address.Location = new System.Drawing.Point(59, 79);
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(68, 16);
             this.Address.TabIndex = 18;
@@ -161,7 +161,7 @@
             // scp
             // 
             this.scp.AutoSize = true;
-            this.scp.Location = new System.Drawing.Point(66, 52);
+            this.scp.Location = new System.Drawing.Point(93, 52);
             this.scp.Name = "scp";
             this.scp.Size = new System.Drawing.Size(34, 16);
             this.scp.TabIndex = 17;
@@ -171,7 +171,7 @@
             // TeacherID
             // 
             this.TeacherID.AutoSize = true;
-            this.TeacherID.Location = new System.Drawing.Point(80, 25);
+            this.TeacherID.Location = new System.Drawing.Point(107, 25);
             this.TeacherID.Name = "TeacherID";
             this.TeacherID.Size = new System.Drawing.Size(20, 16);
             this.TeacherID.TabIndex = 16;
@@ -180,7 +180,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp2.Properties.Resources.SCP_Foundation;
-            this.pictureBox1.Location = new System.Drawing.Point(54, 159);
+            this.pictureBox1.Location = new System.Drawing.Point(81, 159);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 200);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -192,8 +192,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1043, 450);
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ClientSize = new System.Drawing.Size(1012, 453);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);

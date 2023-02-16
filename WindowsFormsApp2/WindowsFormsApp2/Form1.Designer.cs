@@ -43,6 +43,8 @@
             this.scp = new System.Windows.Forms.Label();
             this.TeacherID = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.search = new System.Windows.Forms.TextBox();
+            this.buttonSearch = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -180,13 +182,32 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp2.Properties.Resources.SCP_Foundation;
-            this.pictureBox1.Location = new System.Drawing.Point(81, 159);
+            this.pictureBox1.Location = new System.Drawing.Point(81, 145);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 200);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // search
+            // 
+            this.search.Location = new System.Drawing.Point(468, 19);
+            this.search.Name = "search";
+            this.search.Size = new System.Drawing.Size(532, 22);
+            this.search.TabIndex = 33;
+            // 
+            // buttonSearch
+            // 
+            this.buttonSearch.BackColor = System.Drawing.Color.PaleGreen;
+            this.buttonSearch.Cursor = System.Windows.Forms.Cursors.PanWest;
+            this.buttonSearch.Location = new System.Drawing.Point(328, 17);
+            this.buttonSearch.Name = "buttonSearch";
+            this.buttonSearch.Size = new System.Drawing.Size(134, 25);
+            this.buttonSearch.TabIndex = 34;
+            this.buttonSearch.Text = "Search";
+            this.buttonSearch.UseVisualStyleBackColor = false;
+            this.buttonSearch.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -195,6 +216,8 @@
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1012, 453);
             this.ControlBox = false;
+            this.Controls.Add(this.buttonSearch);
+            this.Controls.Add(this.search);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Exit);
@@ -237,6 +260,8 @@
         private System.Windows.Forms.Label scp;
         private System.Windows.Forms.Label TeacherID;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox search;
+        private System.Windows.Forms.Button buttonSearch;
     }
 }
 

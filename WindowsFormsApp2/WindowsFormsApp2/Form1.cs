@@ -146,6 +146,26 @@ namespace WindowsFormsApp2
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+        private void ButtonSearch_Click(object sender, EventArgs e)
+        {
+            string connectionString = "Server=localhost;Database=scpfoundation1;Uid=thijs;Pwd=thijs;";
+            try
+            {
+                MySqlConnection connection = new MySqlConnection(connectionString);
+                MySqlCommand command = new MySqlCommand("SELECT * FROM scp WHERE id = @searchTerm OR scpnaam LIKE @searchTerm OR nickname LIKE @searchTerm OR smalldescription LIKE @searchTerm", connection);
+                command.Parameters.AddWithValue("@searchTerm", "%" + search.Text + "%");
+                connection.Open();
+                MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
+                dataGridView1.DataSource = dataTable;
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
 
         private void Exit_Click(object sender, EventArgs e)
         {

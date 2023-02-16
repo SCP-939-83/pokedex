@@ -45,3 +45,4 @@ C:\Users\stand\OneDrive\Documenten\GitHub\pokedex\WindowsFormsApp2\WindowsFormsA
 C:\Users\stand\OneDrive\Documenten\GitHub\pokedex\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
 C:\Users\stand\OneDrive\Documenten\GitHub\pokedex\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\stand\OneDrive\Documenten\GitHub\pokedex\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\stand\OneDrive\Documenten\GitHub\pokedex\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\MySql.Data.dll

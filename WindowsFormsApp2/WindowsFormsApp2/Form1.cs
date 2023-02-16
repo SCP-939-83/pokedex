@@ -118,6 +118,34 @@ namespace WindowsFormsApp2
             nickname.Text = row.Cells[2].Value.ToString();
             shortdescription.Text = row.Cells[3].Value.ToString();
         }
+        private void Edit_Click(object sender, EventArgs e)
+        {
+            string connectionString = "Server=localhost;Database=scpfoundation1;Uid=thijs;Pwd=thijs;";
+            try
+            {
+                MySqlConnection connection = new MySqlConnection(connectionString);
+                MySqlCommand command = new MySqlCommand("UPDATE scp SET scpnaam = @scpnaam, nickname = @nickname, smalldescription = @smalldescription WHERE id = @id", connection);
+                command.Parameters.AddWithValue("@id", int.Parse(ID.Text));
+                command.Parameters.AddWithValue("@scpnaam", scpname.Text);
+                command.Parameters.AddWithValue("@nickname", nickname.Text);
+                command.Parameters.AddWithValue("@smalldescription", shortdescription.Text);
+                connection.Open();
+                int rowsAffected = command.ExecuteNonQuery();
+                if (rowsAffected > 0)
+                {
+                    MessageBox.Show("Data updated successfully.");
+                }
+                else
+                {
+                    MessageBox.Show("No records were updated.");
+                }
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
 
         private void Exit_Click(object sender, EventArgs e)
         {

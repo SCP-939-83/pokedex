@@ -33,7 +33,7 @@
             this.Delete = new System.Windows.Forms.Button();
             this.Update = new System.Windows.Forms.Button();
             this.Insert = new System.Windows.Forms.Button();
-            this.ShowAll = new System.Windows.Forms.Button();
+            this.edit = new System.Windows.Forms.Button();
             this.shortdescription = new System.Windows.Forms.TextBox();
             this.nickname = new System.Windows.Forms.TextBox();
             this.scpname = new System.Windows.Forms.TextBox();
@@ -101,14 +101,15 @@
             this.Insert.UseVisualStyleBackColor = true;
             this.Insert.Click += new System.EventHandler(this.Insert_Click);
             // 
-            // ShowAll
+            // edit
             // 
-            this.ShowAll.Location = new System.Drawing.Point(115, 365);
-            this.ShowAll.Name = "ShowAll";
-            this.ShowAll.Size = new System.Drawing.Size(80, 30);
-            this.ShowAll.TabIndex = 24;
-            this.ShowAll.Text = "Edit";
-            this.ShowAll.UseVisualStyleBackColor = true;
+            this.edit.Location = new System.Drawing.Point(115, 365);
+            this.edit.Name = "edit";
+            this.edit.Size = new System.Drawing.Size(80, 30);
+            this.edit.TabIndex = 24;
+            this.edit.Text = "Edit";
+            this.edit.UseVisualStyleBackColor = true;
+            this.edit.Click += new System.EventHandler(this.Edit_Click);
             // 
             // shortdescription
             // 
@@ -200,7 +201,7 @@
             this.Controls.Add(this.Delete);
             this.Controls.Add(this.Update);
             this.Controls.Add(this.Insert);
-            this.Controls.Add(this.ShowAll);
+            this.Controls.Add(this.edit);
             this.Controls.Add(this.shortdescription);
             this.Controls.Add(this.nickname);
             this.Controls.Add(this.scpname);
@@ -226,7 +227,7 @@
         private System.Windows.Forms.Button Delete;
         private System.Windows.Forms.Button Update;
         private System.Windows.Forms.Button Insert;
-        private System.Windows.Forms.Button ShowAll;
+        private System.Windows.Forms.Button edit;
         private System.Windows.Forms.TextBox shortdescription;
         private System.Windows.Forms.TextBox nickname;
         private System.Windows.Forms.TextBox scpname;
